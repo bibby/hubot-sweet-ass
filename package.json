@@ -1,0 +1,18 @@
+{
+  "name": "hubot-sweet-ass",
+  "description": "A hubot script that turns sweet-ass things into sweet ass-things.",
+  "version": "0.0.1",
+  "author": {
+    "name": "bibby",
+    "email": "bibby@bbby.org"
+  },
+  "license": "MIT",
+  "keywords": [
+    "hubot",
+    "hubot-scripts"
+  ],
+  "devDependencies": {
+    "hubot": "2.x"
+  },
+  "main": "sweet-ass.coffee"
+}
