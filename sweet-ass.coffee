@@ -13,6 +13,11 @@
 #   bibby
 
 module.exports = (robot) ->
-  regex = /-ass\s+\w+/
+  regex = /(-ass\s+\w+)/
   robot.hear regex, (msg) ->
-    msg.send msg.envelope.message.text.replace '-ass ', ' ass-'
+    m = msg.match[1]
+    r = m.replace '-ass ', 'ass-'
+    t = msg.envelope.message.text
+    n = t.replace m, " *" + r + "*"
+
+    msg.send n
