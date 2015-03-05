@@ -14,5 +14,12 @@
   "devDependencies": {
     "hubot": "2.x"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bibby/hubot-sweet-ass"
+  },
+  "bugs": {
+    "url": "https://github.com/bibby/hubot-sweet-ass/issues"
+  },
   "main": "sweet-ass.coffee"
 }
